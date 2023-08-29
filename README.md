@@ -1,13 +1,6 @@
 # PayTech - PHP API Client
 
-[![Coverage Status](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://coveralls.io/github/PapiHack/paytech-php-client?branch=master)
-![Issues](https://img.shields.io/github/issues/PapiHack/paytech-php-client)
-![PR](https://img.shields.io/github/issues-pr/PapiHack/paytech-php-client)
-[![Latest Stable Version](https://poser.pugx.org/papihack/paytech-php-client/v)](//packagist.org/packages/papihack/paytech-php-client)
-[![Total Downloads](https://poser.pugx.org/papihack/paytech-php-client/downloads)](//packagist.org/packages/papihack/paytech-php-client)
-[![Latest Unstable Version](https://poser.pugx.org/papihack/paytech-php-client/v/unstable)](//packagist.org/packages/papihack/paytech-php-client)
-[![License](https://poser.pugx.org/papihack/paytech-php-client/license)](//packagist.org/packages/papihack/paytech-php-client)
-[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+## Forked from papihack/paytech-php-client
 
 This is a simple `SDK Client` or `API Client` for `PayTech Online Payment Gateway`.
 
@@ -17,7 +10,7 @@ Check out [PayTech SN Website](https://paytech.sn).
 
 First of all, install the package or library via composer
 
-- `composer require papihack/paytech-php-client`
+- `composer require supermalang/paytech-client`
 
 After that, setup the API config with your parameters like this :
 
@@ -85,21 +78,3 @@ Then you can proceed with :
 
 After that, if you have a success response, you can redirect your user to the `$response['redirect_url']` so that he can make the payment.  
 You can process the response as you wish by directly manipulating `\PayTech\ApiResponse`.
-
-## TODO
-
-- tests: cover all use cases ✅
-- get the support team at [paytech.sn](https://paytech.sn) to clarify certain points
-
-## Contributing
-
-Feel free to make a PR or report an issue 😃
-
-Regarding the tests, I use the elegant PHP Testing Framework  [Pest](https://pestphp.com/) 😎
-
-Oh, one more thing, please do not forget to put a description when you make your PR 🙂
-
-## Contributors
-
-- [M.B.C.M](https://itdev.herokuapp.com)
-[![My Twitter Link](https://img.shields.io/twitter/follow/the_it_dev?style=social)](https://twitter.com/the_it_dev)

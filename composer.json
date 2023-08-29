@@ -1,26 +1,22 @@
 {
-    "name": "papihack/paytech-php-client",
-    "description": "A PHP Client or SDK for PayTech Online Payment Gateway.",
+    "name": "supermalang/paytech-client",
+    "description": "A PHP Client or SDK for PayTech Online Payment Gateway. -  Forked from papihack/paytech-php-client",
     "keywords": [
-        "Plateforme de paiement en ligne Afrique",
-        "Paiement Sénégal", "Paiement", "paiement en ligne", "Sénégal",
-        "Passerelle de paiement en ligne", "PAYTECH", "paytech", "paytech.sn",
-        "orange money", "client php", "api", "php client", "library", "sdk",
-        "php sdk", "paytech php sdk", "client api"
+        "Plateforme de paiement en ligne Afrique"
     ],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "PapiHack",
-            "email": "itdev94@gmail.com"
+            "name": "supermalang",
+            "email": "supermalang@outlook.com"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.3",
-        "rmccue/requests": "^1.7"
+        "php": ">=7.3",
+        "rmccue/requests": ">=1.7"
     },
     "autoload": {
         "psr-4": {
@@ -33,7 +29,12 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0",
-        "pestphp/pest": "^0.2.3"
+        "phpunit/phpunit": ">=9.0",
+        "pestphp/pest": ">=0.2.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
